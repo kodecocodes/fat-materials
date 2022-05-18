@@ -15,7 +15,8 @@ class AnimatedSwitcherExample extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
-      home: const AnimatedCounter(),
+      home: const Scaffold(
+        body: Center(child: AnimatedCounter())),
     );
   }
 }
