@@ -48,7 +48,6 @@ class _AnimatedCounterState extends State<AnimatedCounter> {
       switchOutCurve: Curves.easeInOutBack,
       layoutBuilder: (currentChild, previousChildren) {
         return Stack(
-          fit: StackFit.loose,
           children: [
             if (currentChild != null) currentChild,
           ],
