@@ -67,11 +67,10 @@ class _AnimatedCounterState extends State<AnimatedCounter> {
         return ScaleTransition(
           scale: scaleFadeOutAnimation,
           child: FadeTransition(
-              opacity: scaleFadeOutAnimation,
-              child: SlideTransition(
-                position: offsetAnimation, 
-                child: child)),
-        );
+            opacity: scaleFadeOutAnimation,
+            child: SlideTransition(
+              position: offsetAnimation, 
+              child: child,),),);
       },
       child: Container(
         key: ValueKey<int>(currentCounter),
