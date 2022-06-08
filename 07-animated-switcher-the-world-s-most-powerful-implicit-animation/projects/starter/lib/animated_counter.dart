@@ -9,6 +9,9 @@ class AnimatedCounter extends StatefulWidget {
 }
 
 class _AnimatedCounterState extends State<AnimatedCounter> {
+  // TODO: Add state properties
+  // TODO: Add button styling
+  
   @override
   Widget build(BuildContext context) {
     // TODO: Wrap in a stack widget
