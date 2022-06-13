@@ -13,10 +13,6 @@ analyzer:
     - build/**
     - lib/**.g.dart
 
-  strong-mode:
-    implicit-casts: false
-    implicit-dynamic: false
-
   errors:
     always_declare_return_types: error
     avoid_web_libraries_in_flutter: error
